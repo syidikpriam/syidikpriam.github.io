@@ -289,13 +289,13 @@ section .button button:hover{
   margin: 0 6px;
 }
 .skills-details .boxes{
-  width: 45%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .skills-details .box{
-  width: calc(100% / 2 - 20px);
+  width: calc(100% / 8 - 10px);
   margin: 20px 0;
 }
 .skills-details .boxes .topic{
