@@ -315,18 +315,19 @@ section .button button:hover{
 }
 .services .boxes .box{
   margin: 20px 0;
+  width: calc(100% / 2 - 20px);
+  text-align: center;
+  padding: 30px 10px;
+  cursor: default;
+}
+.services .boxes .box1{
+  margin: 20px 0;
   width: calc(100% / 3 - 20px);
   text-align: center;
-  border-radius: 12px;
-  padding: 30px 10px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  padding: 30px 50px;
   cursor: default;
-  transition: all 0.4s ease;
 }
-.services .boxes .box:hover{
-  background: #4070f4;
-  color: #fff;
-}
+
 .services .boxes .box .icon{
   height: 50px;
   width: 50px;
