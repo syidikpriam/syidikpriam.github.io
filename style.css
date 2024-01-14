@@ -111,7 +111,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url("Images/background.png") no-repeat;
+  background: url("Images/background.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -313,7 +313,7 @@ section .button button:hover{
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.services .boxes .box1{
+.services .boxes .box2{
   margin: 20px 0;
   width: calc(100% / 3 - 20px);
   text-align: center;
@@ -322,6 +322,13 @@ section .button button:hover{
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
   cursor: default;
   transition: all 0.4s ease;
+}
+.services .boxes .box1{
+  margin: 20px 0;
+  width: calc(100% / 3 - 40px);
+  text-align: center;
+  padding: 30px 40px;
+
 }
 
 .services .boxes .box{
